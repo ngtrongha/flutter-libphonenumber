@@ -8,7 +8,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.4.2'
+        classpath 'com.android.tools.build:gradle:8.2.2'
     }
 }
 
@@ -22,9 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdk 33
-    namespace 'com.mathrawk.libphonenumber'
-    testNamespace "com.mathrawk.testlibphonenumber"
+    compileSdk 34
+    namespace "com.mathrawk.libphonenumber"
 
     defaultConfig {
         minSdkVersion 16
