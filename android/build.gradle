@@ -24,6 +24,7 @@ apply plugin: 'com.android.library'
 android {
     compileSdk 33
     namespace 'com.mathrawk.libphonenumber'
+    testNamespace "com.mathrawk.testlibphonenumber"
 
     defaultConfig {
         minSdkVersion 16
